@@ -40,7 +40,7 @@ body {
     padding: 0 1rem;
 }
 
-.card-text h2 {
+.card-text h1 {
     font-size: 22px;
     color: hsl(218, 44%, 22%);
 }
