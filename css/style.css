@@ -1,0 +1,51 @@
+/* Global */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    height: 100dvh;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+/* Utilities */
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.card-qrcode {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-text {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.card-text h2 {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card-text p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
